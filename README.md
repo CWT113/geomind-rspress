@@ -1,6 +1,6 @@
 # Geomind
 
-🌍 **Geomind** 是一个基于 [Vitepress](https://vitepress.dev/) 生成器的个人博客项目，致力于记录我的成长、分享技术心得，以及探索地理信息系统（GIS）与编程的交汇点。
+🌍 **Geomind** 是一个基于 [RsPress](https://rspress.rs/) 生成器的个人博客知识库，致力于记录我的成长、分享技术心得，以及探索地理信息系统（GIS）与编程的交汇点。
 
 > 用技术和思想，构建属于自己的知识地图。
 
@@ -15,7 +15,7 @@
 - 🎨 美观简洁，响应式设计，适配 PC 与移动端
 - 🔍 内置搜索、标签分类、文章归档等功能
 - 📌 支持代码高亮与 LaTeX 数学公式渲染
-- 🛠️ 基于 [VitePress](https://vitepress.dev/) 框架
+- 🛠️ 基于 [RsPress](https://rspress.rs/) 框架
 
 ---
 

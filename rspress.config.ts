@@ -9,7 +9,7 @@ import {
 import { transformerCompatibleMetaHighlight } from "@rspress/core/shiki-transformers";
 
 export default defineConfig({
-  base: "/geomind/",
+  base: "/geomind-rspress/",
   root: path.join(__dirname, "docs"),
   title: "Geomind",
   description: "基于RsPress的个人站点知识库",
