@@ -1,0 +1,133 @@
+[
+  {
+    "text": "首页",
+    "link": "/"
+  },
+  {
+    "text": "前端",
+    "items": [
+      {
+        "text": "CSS",
+        "link": "/guide/"
+      },
+      {
+        "text": "JavaScript",
+        "link": "/guide/"
+      },
+      {
+        "text": "TypeScript",
+        "link": "/guide/"
+      }
+    ]
+  },
+  {
+    "text": "Vue",
+    "items": [
+      {
+        "text": "全家桶",
+        "items": [
+          {
+            "text": "Vue3",
+            "link": "/guide/"
+          },
+          {
+            "text": "Pinia",
+            "link": "/guide/"
+          },
+          {
+            "text": "Vite",
+            "link": "/guide/"
+          },
+          {
+            "text": "Rollup",
+            "link": "/guide/"
+          }
+        ]
+      },
+      {
+        "text": "组件库",
+        "items": [
+          {
+            "text": "Element Plus",
+            "link": "/guide/"
+          }
+        ]
+      },
+      {
+        "text": "微前端",
+        "items": [
+          {
+            "text": "微前端",
+            "link": "/guide/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "React",
+    "link": "/guide/"
+  },
+  {
+    "text": "Java",
+    "items": [
+      {
+        "text": "基础知识",
+        "link": "/guide/"
+      }
+    ]
+  },
+  {
+    "text": "数据库",
+    "items": [
+      {
+        "text": "MySQL",
+        "link": "/guide/"
+      },
+      {
+        "text": "PostgreSQL",
+        "link": "/guide/"
+      }
+    ]
+  },
+  {
+    "text": "GIS",
+    "items": [
+      {
+        "text": "三维地图",
+        "items": [
+          {
+            "text": "Cesium",
+            "link": "/gis/cesium/1.基础使用"
+          }
+        ]
+      },
+      {
+        "text": "浏览器渲染",
+        "items": [
+          {
+            "text": "WebGL",
+            "link": "/gis/cesium/1.基础使用"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "服务端",
+    "items": [
+      {
+        "text": "Linux",
+        "link": "/guide/"
+      },
+      {
+        "text": "Docker",
+        "link": "/guide/"
+      },
+      {
+        "text": "Nginx",
+        "link": "/guide/"
+      }
+    ]
+  }
+]

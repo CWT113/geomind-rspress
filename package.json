@@ -1,0 +1,20 @@
+{
+  "name": "geomind-rspress-beta",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "bootstrap": "pnpm install",
+    "build": "rspress build",
+    "dev": "rspress dev",
+    "preview": "rspress preview",
+    "clean": "rimraf node_modules"
+  },
+  "dependencies": {
+    "@rspress/core": "^2.0.0-beta.33",
+    "@shikijs/transformers": "^3.13.0",
+    "@types/react": "^19.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1"
+  }
+}
