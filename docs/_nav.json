@@ -28,15 +28,15 @@
         "items": [
           {
             "text": "Vue3",
-            "link": "/guide/"
+            "link": "/vue/basic/基础入门"
           },
           {
             "text": "Pinia",
-            "link": "/guide/"
+            "link": "/pinia/index"
           },
           {
             "text": "Vite",
-            "link": "/guide/"
+            "link": "/vite/入门配置"
           },
           {
             "text": "Rollup",

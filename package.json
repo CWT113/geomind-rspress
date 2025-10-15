@@ -10,9 +10,15 @@
     "clean": "rimraf node_modules"
   },
   "dependencies": {
-    "@rspress/core": "^2.0.0-beta.33",
+    "@rsbuild/plugin-sass": "~1.4.0",
+    "@rspress/core": "2.0.0-beta.34",
+    "@rspress/runtime": "2.0.0-beta.34",
+    "@rspress/plugin-llms": "2.0.0-beta.34",
+    "@rspress/theme-default": "2.0.0-beta.34",
+    "@rspress/plugin-algolia": "2.0.0-beta.34",
     "@shikijs/transformers": "^3.13.0",
-    "@types/react": "^19.2.2"
+    "@types/react": "^19.2.2",
+    "tm-themes": "1.10.11"
   },
   "devDependencies": {
     "@types/node": "^22.8.1"
