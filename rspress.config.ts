@@ -1,7 +1,7 @@
 import * as path from "node:path";
-import nav from "./docs/setting/nav.ts";
+import nav from "./setting/nav.ts";
 import { defineConfig } from "@rspress/core";
-import sidebar from "./docs/setting/sidebar.ts";
+import sidebar from "./setting/sidebar.ts";
 import { pluginSass } from "@rsbuild/plugin-sass";
 import {
   transformerNotationDiff,
