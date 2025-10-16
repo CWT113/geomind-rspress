@@ -23,6 +23,9 @@ importers:
       '@rspress/runtime':
         specifier: 2.0.0-beta.34
         version: 2.0.0-beta.34
+      '@rspress/shared':
+        specifier: 2.0.0-beta.34
+        version: 2.0.0-beta.34
       '@rspress/theme-default':
         specifier: 2.0.0-beta.34
         version: 2.0.0-beta.34(@types/react@19.2.2)

@@ -12,6 +12,7 @@
   "dependencies": {
     "@rsbuild/plugin-sass": "~1.4.0",
     "@rspress/core": "2.0.0-beta.34",
+    "@rspress/shared": "2.0.0-beta.34",
     "@rspress/runtime": "2.0.0-beta.34",
     "@rspress/plugin-llms": "2.0.0-beta.34",
     "@rspress/theme-default": "2.0.0-beta.34",

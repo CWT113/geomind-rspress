@@ -2,11 +2,16 @@
 tag: new
 ---
 
-import { Tabs, Tab } from '@rspress/theme-default';
+import { Tabs, Tab, Badge, PackageManagerTabs, Button } from '@rspress/theme-default';
 
-# 基础入门
+# 帮助文档
 
-## 高亮块
+## 高亮块 <Badge text="info" type="info" />
+
+<PackageManagerTabs command="install rspress -D"/>
+
+<Button theme={'brand'} size={"medium"}>按钮</Button>
+<Button theme={'alt'} size={"medium"}>按钮</Button>
 
 :::note
 这是一个 `note` 类型的 `block`
@@ -56,8 +61,7 @@ import { Tabs, Tab } from '@rspress/theme-default';
 > [!DANGER]
 > 这是一个 `danger` 类型的 `block`
 
-> [!DETAILS]``` jsconst num = 10;
-> ```
+> [!DETAILS]``` jsconst num = 10;```
 
 ## 代码块
 ``` js
@@ -104,8 +108,8 @@ function test() {
     const number = 10;
 
     function add(a, b) {
-      return a + b;
-    }
+    return a + b;
+  }
     ```
   </Tab>
 
