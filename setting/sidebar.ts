@@ -21,7 +21,31 @@ const sidebar = {
         },
       ],
     },
-  ]
+  ],
+
+  "/gis/cesium/": [
+    {
+      text: "Cesium",
+      items: [
+        {
+          text: "基础入门",
+          link: "/gis/cesium/基础入门",
+        },
+      ],
+    },
+  ],
+
+  "/gis/webgl/": [
+    {
+      text: "WebGL",
+      items: [
+        {
+          text: "基础入门",
+          link: "/gis/webgl/基础入门",
+        },
+      ],
+    },
+  ],
 };
 
 export default sidebar as any;

@@ -166,7 +166,7 @@ const nav = [
         items: [
           {
             text: "基础理论",
-            link: "/guide/",
+            link: "/gis/knowledge/基础入门",
           },
         ],
       },
@@ -175,11 +175,11 @@ const nav = [
         items: [
           {
             text: "Mapbox",
-            link: "/guide/",
+            link: "/gis/mapbox/基础入门",
           },
           {
             text: "Openlayers",
-            link: "/guide/",
+            link: "/gis/openlayers/基础入门",
           },
         ],
       },
@@ -188,11 +188,11 @@ const nav = [
         items: [
           {
             text: "Cesium",
-            link: "/gis/cesium/1.基础使用",
+            link: "/gis/cesium/基础入门",
           },
           {
             text: "Mars3d",
-            link: "/guide/",
+            link: "/gis/mars3d/基础入门",
           },
         ],
       },
@@ -201,11 +201,11 @@ const nav = [
         items: [
           {
             text: "WebGL",
-            link: "/guide/",
+            link: "/gis/webgl/基础入门",
           },
           {
             text: "ThreeJS",
-            link: "/guide/",
+            link: "/gis/threejs/基础入门",
           },
         ],
       },
@@ -214,7 +214,7 @@ const nav = [
         items: [
           {
             text: "GeoServer",
-            link: "/guide/",
+            link: "/gis/geoserver/基础入门",
           },
         ],
       },
