@@ -1,0 +1,79 @@
+:root {
+  --vp-c-gray-soft: rgba(142, 150, 170, 0.14);
+}
+
+/* 右尖括号注释样式 */
+.rspress-doc blockquote {
+  border-radius: 6px 14px 14px 6px;
+  padding: 14px;
+  position: relative;
+  background-color: var(--vp-c-gray-soft);
+  border-left: 4px solid var(--rp-c-link);
+}
+
+/* 返回顶部按钮 */
+.scroll-to-top_e22be {
+  cursor: pointer;
+}
+
+/* 荧光笔 */
+.marker-text-highlight {
+  border-radius: 5px 5px;
+  background: transparent;
+  background: linear-gradient(
+          104deg,
+          rgba(130, 255, 173, 0) 0.9%,
+          rgba(130, 255, 173, 1.25) 2.4%,
+          rgba(130, 255, 173, 0.5) 5.8%,
+          rgba(130, 255, 173, 0.1) 93%,
+          rgba(130, 255, 173, 0.7) 96%,
+          rgba(130, 255, 1732, 0) 98%
+  ),
+  linear-gradient(
+          183deg,
+          rgba(130, 255, 173, 0) 0%,
+          rgba(130, 255, 173, 0.3) 7.9%,
+          rgba(130, 255, 173, 0) 15%
+  );
+}
+
+/* 文字选中背景色 */
+:root ::selection {
+  background-color: rgba(180, 236, 207, 0.5);
+}
+
+.dark ::selection {
+  background-color: rgb(157, 129, 237);
+}
+
+/* 尤雨溪博客高亮 */
+.marker-evy {
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+}
+
+.marker-evy:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 66%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  /*background-color: rgba(79, 192, 141, 0.5);*/
+  background: linear-gradient(
+          104deg,
+          rgba(130, 255, 173, 0) 0.9%,
+          rgba(130, 255, 173, 1.25) 2.4%,
+          rgba(130, 255, 173, 0.5) 5.8%,
+          rgba(130, 255, 173, 0.1) 93%,
+          rgba(130, 255, 173, 0.7) 96%,
+          rgba(130, 255, 1732, 0) 98%
+  )
+}
+
+.marker-evy:hover:after {
+  top: 0;
+}

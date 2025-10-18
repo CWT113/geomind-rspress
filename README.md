@@ -1,37 +1,29 @@
-# Geomind
+# Rspress website
 
-🌍 **Geomind** 是一个基于 [RsPress](https://rspress.rs/) 生成器的个人博客知识库，致力于记录我的成长、分享技术心得，以及探索地理信息系统（GIS）与编程的交汇点。
+## Setup
 
-> 用技术和思想，构建属于自己的知识地图。
-
----
-
-
-
-## ✨ 项目特色
-
-- 🗺️ 专注于 GIS 与编程领域的内容
-- 🧩 支持 Markdown，结构清晰，便于管理
-- 🎨 美观简洁，响应式设计，适配 PC 与移动端
-- 🔍 内置搜索、标签分类、文章归档等功能
-- 📌 支持代码高亮与 LaTeX 数学公式渲染
-- 🛠️ 基于 [RsPress](https://rspress.rs/) 框架
-
----
-
-
-
-## 🚀 快速开始
+Install the dependencies:
 
 ```bash
-# 克隆仓库
-https://github.com/CWT113/Geomind2.git
+npm install
+```
 
-# 进入项目目录
-cd Geomind
+## Get started
 
-# 安装依赖
-pnpm install
+Start the dev server:
 
-# 启动本地服务
-pnpm run dev
+```bash
+npm run dev
+```
+
+Build the website for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```

@@ -23,6 +23,18 @@ const sidebar = {
     },
   ],
 
+  "/gis/knowledge/": [
+    {
+      text: "理论知识",
+      items: [
+        {
+          text: "坐标系与投影",
+          link: "/gis/knowledge/坐标系与投影",
+        },
+      ],
+    },
+  ],
+
   "/gis/cesium/": [
     {
       text: "Cesium",
@@ -40,8 +52,34 @@ const sidebar = {
       text: "WebGL",
       items: [
         {
-          text: "基础入门",
-          link: "/gis/webgl/基础入门",
+          text: "webgl概述",
+          link: "/gis/webgl/1.webgl概述",
+        },
+        {
+          text: "坐标系",
+          link: "/gis/webgl/2.坐标系",
+        },
+        {
+          text: "着色器",
+          link: "/gis/webgl/3.着色器",
+          items: [
+            {
+              text: "为attribute变量赋值",
+              link: "/gis/webgl/3.1.为attribute变量赋值",
+            },
+            {
+              text: "为uniform变量赋值",
+              link: "/gis/webgl/3.2.为uniform变量赋值",
+            },
+          ],
+        },
+        {
+          text: "缓冲区对象",
+          link: "/gis/webgl/4.缓冲区对象",
+        },
+        {
+          text: "高级变换和动画效果",
+          link: "/gis/webgl/6.高级变换和动画效果",
         },
       ],
     },

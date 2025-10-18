@@ -119,7 +119,7 @@ const nav = [
       },
       {
         text: "高级调优",
-        item: [
+        items: [
           {
             text: "JVM",
             link: "/guide/",
@@ -128,7 +128,7 @@ const nav = [
       },
       {
         text: "中间件",
-        item: [
+        items: [
           {
             text: "Kafka",
             link: "/guide/",
@@ -166,7 +166,7 @@ const nav = [
         items: [
           {
             text: "基础理论",
-            link: "/gis/knowledge/基础入门",
+            link: "/gis/knowledge/坐标系与投影",
           },
         ],
       },
@@ -201,7 +201,7 @@ const nav = [
         items: [
           {
             text: "WebGL",
-            link: "/gis/webgl/基础入门",
+            link: "/gis/webgl/1.webgl概述",
           },
           {
             text: "ThreeJS",
