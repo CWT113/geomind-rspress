@@ -7,7 +7,6 @@ import katex from 'rspress-plugin-katex';
 import { pluginCustomCss } from './plugin';
 import mermaid from 'rspress-plugin-mermaid';
 import { defineConfig } from 'rspress/config';
-import ghPages from 'rspress-plugin-gh-pages';
 import supersub from 'rspress-plugin-supersub';
 import alignImage from 'rspress-plugin-align-image';
 import readingTime from 'rspress-plugin-reading-time';
@@ -78,11 +77,6 @@ export default defineConfig({
     pluginCustomCss(),
     // 使用OpenSans作为默认字体插件
     pluginFontOpenSans(),
-    // Github Pages自动部署插件
-    ghPages({
-      repo: 'https://github.com/CWT113/geomind-rspress.git',
-      branch: 'main',
-    }),
     // 显示阅读时间插件
     readingTime({
       defaultLocale: 'zh-CN',
